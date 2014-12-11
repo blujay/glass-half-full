@@ -1,4 +1,4 @@
-glass-half-full
+Glass half full
 ===============
 
 A simple game in Unity3d exploring the difficulties of providing a balanced life with other people when you sometimes fail to appreciate other people's point of view. An MA Digital Media Art project
