@@ -12,7 +12,7 @@ public class GameManager : MonoBehaviour {
 
 	{
 
-		if (currentLevel < 8) {
+		if (currentLevel < 18) {
 			currentLevel += 1;
 			//Application.LoadLevel (currentLevel);
 			currentScore += dropValue;
@@ -21,7 +21,13 @@ public class GameManager : MonoBehaviour {
 			} else 
 
 			{
-			print ("Game OVER!");
-			}	
+				if (currentScore > 0){
+					print ("Well done! you have survived! you have " + currentScore.ToString());
+			} else 
+			
+			{
+				print ("uh oh! you have very little control :-( " + currentScore.ToString());
+			}
+		}	
 	}
 }

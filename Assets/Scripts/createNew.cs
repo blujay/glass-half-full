@@ -5,12 +5,11 @@ public class createNew : MonoBehaviour
 	public Transform prefab;
 	void OnCollisionEnter (Collision col)
 	{
-		if (col.gameObject.tag == "drop") 
+		if (col.gameObject.tag == "blood") 
 		{
 			Destroy (col.gameObject);
-			Destroy (gameObject);
-			Instantiate(prefab, transform.position, transform.rotation);
-			prefab.tag = "vitality";
+			Instantiate(gameObject, transform.position, transform.rotation);
 		}
+
 	}
 }

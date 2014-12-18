@@ -11,11 +11,12 @@ public class dropScore : MonoBehaviour
 	{
 		int scoreBall = 0;
 
-		if (col.gameObject.tag == "drop") {
-			scoreBall = 50;
+		if (col.gameObject.tag == "blood") {
+			scoreBall = 40;
+			audio.Play ();
 		}
 		else if (col.gameObject.tag == "vitality") {
-			scoreBall = 100;
+			scoreBall = 20;
 		}
 		else if (col.gameObject.tag == "gold") {
 			scoreBall = 500;

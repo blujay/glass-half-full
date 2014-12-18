@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\balldrop.cs" />
      <Compile Include="Assets\Scripts\createNew.cs" />
      <Compile Include="Assets\Scripts\dropScore.cs" />
+     <Compile Include="Assets\Scripts\spawnDrops.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
  </Reference>

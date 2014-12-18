@@ -3,7 +3,7 @@
 function OnCollisionEnter(collision : Collision)
 {
 	
-	if (collision.transform.tag == "drop" && audio != null)
+	if (collision.transform.tag == "drop" || "vitality" || "gold" && audio != null)
 	audio.Play();
 
 }

@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\balldrop.cs" />
      <Compile Include="Assets\Scripts\createNew.cs" />
      <Compile Include="Assets\Scripts\dropScore.cs" />
+     <Compile Include="Assets\Scripts\spawnDrops.cs" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>C:/users/jaya/My Documents/Dropbox/Dropbox (Aptivate)/rootinteractive/MaDMA/Code/projects/glass-half-full/glass-half-full/Library/ScriptAssemblies/Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>
